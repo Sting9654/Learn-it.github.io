@@ -102,6 +102,19 @@ header a:hover{
 #hero button{
     font-size: 1.75em;
 }
+#somos .texto{
+    color: #FFFF;
+}
+#somos{
+    background-repeat:no-repeat ;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5))
+    ,url(media/Learn-it.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 #somos .container{
     text-align: center;
@@ -109,7 +122,7 @@ header a:hover{
 }
 
 #Nuestros-Cursos{
-    background-color: rgb(30,30,30);
+    background-color: rgb(40,40,40);
     color: white;
     text-align: center;
 }
@@ -128,7 +141,7 @@ header a:hover{
 }
 
 #Nuestros-Cursos .carta{
-    background-position: center center;
+    background-position: center;
     background-size: cover;
     padding: 50px 0px;
     margin: 30px;
@@ -141,7 +154,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("media/front-end.jpg");
+    ,url("media/Contabilidad-background");
 
 }
 
@@ -164,14 +177,39 @@ header a:hover{
 
 }
 
-#caracteristicas .container{
-    text-align: center;
-    padding: 250px 12px;
+#caracteristicas {
+    background-color: #FFFF;
+    padding: 250px;
+    margin: 0%;
 }
 
+
+#caracteristicas .container{
+    display: flex;
+    flex-direction: row;
+}
+
+#caracteristicas img{
+    padding-left: 125px; 
+}
+
+#caracteristicas div{
+   justify-content: space-around;
+}
 #caracteristicas li{
     margin: 16px 0px;
+    color: black;
     font-weight: bold;
+}
+
+#caracteristicas li:hover{
+    margin: 16px 0px;
+    color: #009EFF;
+    font-weight: bold;
+}
+
+#caracteristicas span{
+    color: #009EFF;
 }
 
 #final{
@@ -180,7 +218,12 @@ header a:hover{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(30,30,30);
+    background-color: rgb(40,40,40);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url("media/background-2.jpeg");
     color: white;
     height: 70vh;
 }
