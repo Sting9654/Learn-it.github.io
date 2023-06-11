@@ -102,9 +102,11 @@ header a:hover{
 #hero button{
     font-size: 1.75em;
 }
+
 #somos .texto{
     color: #FFFF;
 }
+
 #somos{
     background-repeat:no-repeat ;
     background-image: linear-gradient(
@@ -122,7 +124,14 @@ header a:hover{
 }
 
 #Nuestros-Cursos{
-    background-color: rgb(40,40,40);
+    background-repeat:no-repeat ;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5))
+    ,url(media/background\ cards.jpg);
+    background-size: cover;
+    background-position: center;
     color: white;
     text-align: center;
 }
@@ -178,27 +187,26 @@ header a:hover{
 }
 
 #caracteristicas {
-    background-color: #FFFF;
+    background-repeat:no-repeat ;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5))
+    ,url(media/background-backward.jpg);
+    background-size: cover;
+    background-position: center;
     padding: 250px;
-    margin: 0%;
 }
 
 
 #caracteristicas .container{
-    display: flex;
-    flex-direction: row;
+    align-items: center center;
+    margin: auto;
 }
 
-#caracteristicas img{
-    padding-left: 125px; 
-}
-
-#caracteristicas div{
-   justify-content: space-around;
-}
 #caracteristicas li{
-    margin: 16px 0px;
-    color: black;
+    margin: 50px 0px;
+    color: #FFFF;
     font-weight: bold;
 }
 
@@ -208,29 +216,23 @@ header a:hover{
     font-weight: bold;
 }
 
-#caracteristicas span{
-    color: #009EFF;
-}
-
 #final{
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(40,40,40);
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ),url("media/background-2.jpeg");
+    ),url("media/background\ cards.jpg");
     color: white;
     height: 70vh;
 }
 
 #final h2{
     font-size: 7vw;
+    margin: 0%;
+    padding: 75px;
 }
 
 #final button{
@@ -238,13 +240,17 @@ header a:hover{
 }
 
 footer{
-    background-color: rgb(230,230,230);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url("media/Background-footer.jpg");
 }
 
 footer p{
     margin: 0;
     padding: 12px;
-    color: rgb(100,100,100);
+    color: #FFFF;
 }
 
 footer .container{
@@ -381,10 +387,6 @@ footer .container{
 }
 
 @media (min-width: 1200px) {
-    #caracteristicas{
-        
-    }
-
     #caracteristicas span{
         color: #009EFF;
     }
