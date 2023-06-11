@@ -213,6 +213,7 @@ header a:hover{
 }
 
 #final{
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -362,8 +363,9 @@ footer .container{
     }
 
     #caracteristicas ul{
-        margin-left: 100px;
+        margin: auto;
     }
+
 
     #final h2{
         font-size: 5em;
@@ -380,6 +382,10 @@ footer .container{
 
 @media (min-width: 1200px) {
     #caracteristicas{
-        background-position-x: calc(100vw - 800px);
+        
+    }
+
+    #caracteristicas span{
+        color: #009EFF;
     }
 }
